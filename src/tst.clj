@@ -21,14 +21,14 @@
          accumulatron ""]
     ; run loop if still going up to 100 but stop if there and bust out accumulator's value:
     (if (> start end)
-      (println accumulatron)
+      (println accumulatron))
         ; if not look out for these return values, assuming recur can change their values
 
 
     (if (or ((= 0 (% start 15)) (=0 (% start 5) (% start 3)))
             then
-            ()
-      recur (+ start 1) (str accumulatron " " )
+            ())
+      recur (+ start 1) (str accumulatron " "))))
 
-    )
+
 
